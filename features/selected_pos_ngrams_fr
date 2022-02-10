@@ -1,0 +1,100 @@
+adj adj det
+adj adp det
+adj cconj adp
+adj cconj punct
+adj noun noun
+adp adj adv
+adp adp adp
+adp noun det
+adp noun pron
+adp propn punct
+adp verb noun
+adv cconj adv
+adv num punct
+adv pron aux
+adv pron pron
+adv punct
+adv punct pron
+adv sconj det
+adv verb adp
+aux adj det
+aux adv
+aux adv aux
+cconj adj aux
+cconj adj punct
+cconj adp adj
+cconj adp det
+cconj adv pron
+cconj noun
+cconj noun det
+cconj pron aux
+cconj sconj det
+det adj verb
+det adv adp
+det cconj
+det noun adp
+det noun num
+det num
+det propn
+det propn propn
+noun adj verb
+noun adp det
+noun adp verb
+noun aux adp
+noun noun noun
+noun noun verb
+noun num
+noun num cconj
+noun propn aux
+noun propn verb
+noun punct propn
+noun verb det
+num adp
+num det noun
+num noun num
+part pron
+part pron sconj
+pron adj det
+pron adp adv
+pron aux adj
+pron aux pron
+pron cconj
+pron noun adv
+pron pron pron
+pron propn punct
+pron verb adv
+propn adj aux
+propn adj pron
+propn aux aux
+propn cconj
+propn cconj sconj
+propn det propn
+propn noun adp
+propn propn
+punct adp sconj
+punct adv num
+punct adv punct
+punct aux verb
+punct cconj adv
+punct cconj noun
+punct det adv
+punct pron aux
+punct pron punct
+punct propn adj
+punct propn det
+punct punct noun
+punct verb pron
+sconj noun propn
+sconj pron adp
+sconj sconj
+verb adj adp
+verb adp num
+verb noun adv
+verb pron adj
+verb pron det
+verb punct punct
+verb sconj det
+verb sconj pron
+verb sconj punct
+verb verb noun
+verb verb num

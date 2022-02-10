@@ -1,0 +1,6 @@
+setup,feature,En vs. Ir,En vs. Sc,Ir vs. Sc,3-way
+English Originals,PoS n-grams,0.96,0.92,0.92,0.89
+English Originals,selected_pos_ngrams_en,0.9,0.87,0.87,0.79
+English Originals,Word n-grams,0.99,1.0,0.99,0.99
+English Originals,function_words_en,0.9,0.91,0.87,0.79
+English Originals,pronouns_en,0.68,0.75,0.69,0.57
