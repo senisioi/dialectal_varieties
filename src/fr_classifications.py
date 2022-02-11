@@ -132,7 +132,7 @@ inp_dir = '../corpus/train_test_split/mt_fr_noent'
 feature_path = None
 if os.path.exists(inp_dir):
     row = {}
-    row['setup'] = 'French no Entities'
+    row['setup'] = 'French MT no Entities'
     row['feature'] = 'Word n-grams'
 
     avg_f1, _, _ = run_dialect_experiment_multi_sample(inp_dir, feature_path, MAX_NO_WD_NGRAMS, ['England', 'Ireland'])
