@@ -20,7 +20,7 @@ from tqdm import tqdm
 
 
 MAX_NO_WD_NGRAMS = 500
-MAX_NO_POS_NGRAMS = 10000
+MAX_NO_POS_NGRAMS = 2000
 
 
 logging.basicConfig(format = u'[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s', level = logging.NOTSET)
