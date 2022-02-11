@@ -81,27 +81,30 @@ EU chunks:  449
 
 ### Original English Data
 
-|setup|feature                      |En vs. Ir|En vs. Sc                                    |Ir vs. Sc|3-way|
-|-----|-----------------------------|---------|---------------------------------------------|---------|-----|
-|English Originals|PoS n-grams                  |0.96     |0.92                                         |0.92     |0.89 |
-|English Originals|selected_pos_ngrams_en       |0.9      |0.87                                         |0.87     |0.79 |
-|English Originals|Word n-grams                 |0.99     |1                                            |0.99     |0.99 |
-|English Originals|function_words_en            |0.9      |0.91                                         |0.87     |0.79 |
-|English Originals|pronouns_en                  |0.68     |0.75                                         |0.69     |0.57 |
+|setup              |feature               |En vs. Ir|En vs. Sc|Ir vs. Sc|3-way|
+|-------------------|----------------------|---------|---------|---------|-----|
+|English Originals  |function_words_en     |0.9      |0.91     |0.85     |0.8  |
+|English Originals  |pronouns_en           |0.63     |0.76     |0.69     |0.57 |
+|English Originals  |PoS n-grams           |0.91     |0.87     |0.91     |0.83 |
+|English Originals  |selected_pos_ngrams_en|0.88     |0.85     |0.86     |0.78 |
+|English Originals  |selected_pos_ngrams_fr|0.82     |0.71     |0.77     |0.64 |
+|English no Entities|Word n-grams          |0.91     |0.89     |0.92     |0.83 |
 
 
 
 ### French Human and Machine Translated Data
 
-|setup|feature                      |En vs. Ir|En vs. Sc                                    |Ir vs. Sc|3-way|
-|-----|-----------------------------|---------|---------------------------------------------|---------|-----|
-|French Translations|PoS n-grams                  |0.89     |0.85                                         |0.82     |0.77 |
-|French Translations|selected_pos_ngrams_fr       |0.78     |0.74                                         |0.75     |0.66 |
-|French Translations|Word n-grams                 |1        |0.95                                         |0.99     |0.94 |
-|French Translations|function_words_fr            |0.81     |0.87                                         |0.82     |0.73 |
-|French Translations|pronouns_fr                  |0.81     |0.83                                         |0.72     |0.68 |
-|French MT|PoS n-grams                  |0.96     |0.9                                          |0.86     |0.83 |
-|French MT|selected_pos_ngrams_fr       |0.79     |0.74                                         |0.79     |0.67 |
-|French MT|Word n-grams                 |1        |0.95                                         |0.99     |0.94 |
-|French MT|function_words_fr            |0.87     |0.83                                         |0.8      |0.72 |
-|French MT|pronouns_fr                  |0.86     |0.85                                         |0.72     |0.68 |
+|setup              |feature               |En vs. Ir|En vs. Sc|Ir vs. Sc|3-way|
+|-------------------|----------------------|---------|---------|---------|-----|
+|French Translations|function_words_fr     |0.84     |0.87     |0.78     |0.71 |
+|French Translations|pronouns_fr           |0.82     |0.8      |0.72     |0.66 |
+|French Translations|PoS n-grams           |0.89     |0.82     |0.76     |0.74 |
+|French Translations|selected_pos_ngrams_fr|0.78     |0.76     |0.62     |0.59 |
+|French Translations|selected_pos_ngrams_en|0.8      |0.76     |0.71     |0.59 |
+|French no Entities |Word n-grams          |0.97     |0.91     |0.95     |0.9  |
+|French MT          |function_words_fr     |0.88     |0.84     |0.81     |0.72 |
+|French MT          |pronouns_fr           |0.85     |0.85     |0.74     |0.71 |
+|French MT          |PoS n-grams           |0.94     |0.87     |0.84     |0.78 |
+|French MT          |selected_pos_ngrams_fr|0.83     |0.73     |0.77     |0.66 |
+|French MT          |selected_pos_ngrams_en|0.78     |0.79     |0.72     |0.62 |
+|French MT no Entities|Word n-grams          |0.99     |0.91     |0.95     |0.9  |
