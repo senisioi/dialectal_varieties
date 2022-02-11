@@ -40,9 +40,9 @@ We used an En-Fr readily-available MT model implemented in [fairseq-py](https://
 
 
 
-### 2. Generate pos-tagged directories
+### 2. Generate PoS-tagged and no-entity files
 
-This will generate PoS-tagged directories from English, French, and MT French train-test splits. Check the source code, if you wish to run it on a custom directory.
+This will generate PoS-tagged copies of the text files and copies that have all the annotated entities replaced. It is intended to be used with the English, French, and MT French train-test splits. Check the source code, if you wish to run it on a custom directory.
 ```bash
 cd src && python3 make_pos_dirs.py
 ``` 
