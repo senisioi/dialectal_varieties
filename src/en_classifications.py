@@ -6,7 +6,7 @@ rows = []
 # English experiments
 
 inp_dir = '../corpus/train_test_split/en'
-feature_paths = [None, '../features/function_words_en', '../features/pronouns_en']
+feature_paths = ['../features/function_words_en', '../features/pronouns_en']
 for feature_path in feature_paths:
     row = {}
     row['setup'] = 'English Originals'

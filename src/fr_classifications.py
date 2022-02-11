@@ -6,7 +6,7 @@ rows = []
 # French experiments - Human Translations
 
 inp_dir = '../corpus/train_test_split/fr'
-feature_paths = [None, '../features/function_words_fr', '../features/pronouns_fr']
+feature_paths = ['../features/function_words_fr', '../features/pronouns_fr']
 for feature_path in feature_paths:
     row = {}
     row['setup'] = 'French Translations'
@@ -80,7 +80,7 @@ if os.path.exists(inp_dir):
 # French experiments - Machine Translations
 
 inp_dir = '../corpus/train_test_split/mt_fr'
-feature_paths = [None, '../features/function_words_fr', '../features/pronouns_fr']
+feature_paths = ['../features/function_words_fr', '../features/pronouns_fr']
 for feature_path in feature_paths:
     row = {}
     row['setup'] = 'French MT'
