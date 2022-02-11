@@ -25,7 +25,8 @@ Download spacy models for English and French.
 ```bash
 # you may choose to download other models if you wish so
 python3 -m spacy download en_core_web_trf
-python3 -m spacy download fr_dep_news_trf
+python3 -m spacy download fr_dep_news_trf # for PoS tagging
+python3 -m spacy download fr_core_news_lg # for NER
 ```
 
 #### Optional - split raw files into chunks

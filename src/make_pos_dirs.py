@@ -72,14 +72,15 @@ def make_noent_dir(dir, spacy_lang, batch_size=80):
 
 
 EN_SPCY_MODEL = 'en_core_web_trf'
-FR_SPCY_MODEL = 'fr_dep_news_trf'
+FR_POS_SPCY_MODEL = 'fr_dep_news_trf'
+FR_NER_SPCY_MODEL = 'fr_core_news_lg'
 
 make_pos_dir('../corpus/train_test_split/en', EN_SPCY_MODEL)
-make_pos_dir('../corpus/train_test_split/fr', FR_SPCY_MODEL)
-make_pos_dir('../corpus/train_test_split/mt_fr', FR_SPCY_MODEL)
+make_pos_dir('../corpus/train_test_split/fr', FR_POS_SPCY_MODEL)
+make_pos_dir('../corpus/train_test_split/mt_fr', FR_POS_SPCY_MODEL)
 
 make_noent_dir('../corpus/train_test_split/en', EN_SPCY_MODEL)
-make_noent_dir('../corpus/train_test_split/fr', FR_SPCY_MODEL)
-make_noent_dir('../corpus/train_test_split/mt_fr', FR_SPCY_MODEL)
+make_noent_dir('../corpus/train_test_split/fr', FR_NER_SPCY_MODEL)
+make_noent_dir('../corpus/train_test_split/mt_fr', FR_NER_SPCY_MODEL)
 
 
