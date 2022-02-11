@@ -19,7 +19,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, f1_score
 from tqdm import tqdm
 
 
-MAX_NO_WD_NGRAMS = 500
+MAX_NO_WD_NGRAMS = 300
 MAX_NO_POS_NGRAMS = 2000
 
 
