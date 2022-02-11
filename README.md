@@ -24,17 +24,17 @@ pip3 install requirements.txt
 Download spacy models for English and French.
 ```bash
 # you may choose to download other models if you wish so
-python3 -m spacy download en_core_web_lg
-python3 -m spacy download fr_core_news_lg
+python3 -m spacy download en_core_web_trf
+python3 -m spacy download fr_dep_news_trf
 ```
 
-##### Optional - split raw files into chunks
+#### Optional - split raw files into chunks
 This is not needed, as the splits are already released in this repository. If one wishes to split the files into chunks and to do the train-test split, run:
 ```bash
 python3 split_extract.py
 ```
 
-##### Optional - machine translate English documents to French
+#### Optional - machine translate English documents to French
 We used an En-Fr readily-available MT model implemented in [fairseq-py](https://github.com/pytorch/fairseq). [The fairseq model](https://dl.fbaipublicfiles.com/fairseq/models/wmt14.en-fr.joined-dict.transformer.tar.bz2) is available for download and may be loaded into fairseq by following [the tutorial from the official repository](https://github.com/pytorch/fairseq/blob/main/examples/translation/README.md). The MT model is only important to show that dialect-markers from the source language are preserved in the MT output.
 
 
