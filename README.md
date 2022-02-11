@@ -42,10 +42,12 @@ We used an En-Fr readily-available MT model implemented in [fairseq-py](https://
 
 ### 2. Generate PoS-tagged and no-entity files
 
-This will generate PoS-tagged copies of the text files and copies that have all the annotated entities replaced. It is intended to be used with the English, French, and MT French train-test splits. Check the source code, if you wish to run it on a custom directory.
+The annotated train-test splits used in the experiments are available [here](https://github.com/senisioi/dialectal_varieties/releases/download/v0.1/train_test_split.tar.gz). 
+This script will generate PoS-tagged copies of the text files and copies that have all the annotated entities replaced. It is intended to be used with the English, French, and MT French train-test splits. Check the source code, if you wish to run it on a custom directory.
 ```bash
 cd src && python3 make_pos_dirs.py
 ``` 
+
 
 ### 3. Generate some tables from text classification experiments
 
