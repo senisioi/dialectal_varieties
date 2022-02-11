@@ -32,7 +32,7 @@ for feature_path in feature_paths:
 
 inp_dir = "../corpus/train_test_split/fr_pos"
 if os.path.exists(inp_dir):
-    feature_paths = [None, '../features/selected_pos_ngrams_fr']
+    feature_paths = [None, '../features/selected_pos_ngrams_fr', '../features/selected_pos_ngrams_en']
     for feature_path in feature_paths:
         row = {}
         row['setup'] = 'French Translations'
@@ -106,7 +106,7 @@ for feature_path in feature_paths:
 
 inp_dir = "../corpus/train_test_split/mt_fr_pos"
 if os.path.exists(inp_dir):
-    feature_paths = [None, '../features/selected_pos_ngrams_fr']
+    feature_paths = [None, '../features/selected_pos_ngrams_fr', '../features/selected_pos_ngrams_en']
     for feature_path in feature_paths:
         row = {}
         row['setup'] = 'French MT'

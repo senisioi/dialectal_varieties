@@ -33,7 +33,7 @@ for feature_path in feature_paths:
 
 inp_dir = "../corpus/train_test_split/en_pos"
 if os.path.exists(inp_dir):
-    feature_paths = [None, '../features/selected_pos_ngrams_en']
+    feature_paths = [None, '../features/selected_pos_ngrams_en', '../features/selected_pos_ngrams_fr']
     for feature_path in feature_paths:
         row = {}
         row['setup'] = 'English Originals'
